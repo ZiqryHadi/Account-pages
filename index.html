@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jersey+10&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <div class="container">
+    <div class="wrapper">
+      <div class="header">
+        <h1>Dky's Alter</h1>
+        <p>here's my social media account</p>
+      </div>
+      <div class="card" onclick="sosmed('instagram')">
+        <div class="title">
+          <i class="fa-brands fa-instagram logo"></i>
+          <h3>Instagram</h3>
+        </div>
+        <p>- @Dkybazoo -</p>
+      </div>
+      <div class="card" onclick="sosmed('tiktok')">
+        <div class="title">
+          <i class="fa-brands fa-tiktok logo-tiktok"></i>
+          <h3>Tiktok</h3>
+        </div>
+        <p>- @Dkybazoo -</p>
+      </div>
+      <div class="card" onclick="sosmed('youtube')">
+        <div class="title">
+          <i class="fa-brands fa-youtube logo"></i>
+          <h3>Youtube</h3>
+        </div>
+        <p>- @Dkybazoo -</p>
+      </div>
+      <div class="card" onclick="sosmed('facebook')">
+        <div class="title">
+          <i class="fa-brands fa-facebook logo"></i>
+          <h3>Facebook</h3>
+        </div>
+        <p>- @Dkybazoo -</p>
+      </div>
+      <div class="card" onclick="sosmed('x')">
+        <div class="title">
+          <i class="fa-brands fa-x-twitter logo"></i>
+          <h3>Twitter / X</h3>
+        </div>
+        <p>- @Dkybazoo -</p>
+      </div>
+    </div>
+    <div class="footer">
+      <p>Copyright</p>
+      <i class="fa-regular fa-copyright copy"></i>
+      <p> 2024 Dkybazoo || Follow for more information </p>
+    </div>
+  </div>
+  <script>
+    function sosmed(params) {
+      if (params == "instagram") {
+        location.href="https://www.instagram.com/dkybazoo?igsh=MXJqa2RjY3E5NmkwNQ=="
+      }
+      else if (params == "tiktok"){
+        location.href="https://www.tiktok.com/@dkybazoo?_t=8pDVgvZbncd&_r=1"
+      }
+      else if (params == "youtube"){
+        location.href="https://youtube.com/@dkybazoo?si=gYJD2P0ovInktISb"
+      }
+      else if (params == "facebook"){
+        location.href="https://www.facebook.com/profile.php?id=100090261681162"
+      }
+      else {
+        location.href="https://x.com/Dkybazoo?t=ioeJMRnwAbrJRANgTrFnkw&s=09"
+      }
+    }
+  </script>
+</body>
+</html>
